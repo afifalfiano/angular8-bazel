@@ -51,10 +51,18 @@ ng_module(
 
 rollup_bundle(
     name = "bundle",
+    additional_entry_points = [
+        "src/app/home/home.module.ngfactory",
+        "src/app/contact/contact.module.ngfactory",
+        "src/app/profile/profile.module.ngfactory"
+    ],
     entry_point = ":main.prod.ts",
     deps = [
         "//src",
         "@npm//@angular/router",
+        "@npm//@angular/common",
+        "@npm//@angular/platform-browser",
+        "@npm//@angular/core",
         "@npm//rxjs",
     ],
 )

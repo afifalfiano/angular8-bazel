@@ -1,0 +1,48 @@
+package(default_visibility = ["//visibility:public"])
+
+filegroup(
+    name = "image_assets",
+    srcs = [
+        "2FA/app-store.png",
+        "2FA/google-play.png",
+        "icons/404.png",
+        "icons/link-expired.png",
+        "icons/link-invalid.png",
+        "icons/link-sent.png",
+        "icons/reset-success.png",
+        "loader/loader.gif",
+        "loader/table.gif",
+        "bg-login.webp",
+        "profile.webp",
+        "uii-logo-pyramid.webp",
+        "uii-logo.webp",
+        "favicon/android-icon-36x36.png",
+        "favicon/android-icon-48x48.png",
+        "favicon/android-icon-72x72.png",
+        "favicon/android-icon-96x96.png",
+        "favicon/android-icon-144x144.png",
+        "favicon/android-icon-192x192.png",
+        "favicon/apple-icon-57x57.png",
+        "favicon/apple-icon-60x60.png",
+        "favicon/apple-icon-72x72.png",
+        "favicon/apple-icon-76x76.png",
+        "favicon/apple-icon-114x114.png",
+        "favicon/apple-icon-120x120.png",
+        "favicon/apple-icon-144x144.png",
+        "favicon/apple-icon-152x152.png",
+        "favicon/apple-icon-180x180.png",
+        "favicon/apple-icon-precomposed.png",
+        "favicon/apple-icon.png",
+        "favicon/ms-icon-70x70.png",
+        "favicon/ms-icon-144x144.png",
+        "favicon/ms-icon-150x150.png",
+        "favicon/ms-icon-310x310.png",
+        "favicon/favicon-16x16.png",
+        "favicon/favicon-32x32.png",
+        "favicon/favicon-96x96.png"
+        "favicon/favicon.ico",
+        "favicon/manifest.json",
+        "favicon/browserconfig.xml"
+        
+    ],
+)
