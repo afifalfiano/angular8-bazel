@@ -52,9 +52,7 @@ ng_module(
 rollup_bundle(
     name = "bundle",
     additional_entry_points = [
-        "src/app/home/home.module.ngfactory",
-        "src/app/contact/contact.module.ngfactory",
-        "src/app/profile/profile.module.ngfactory"
+        "src/app/blog/blog.module.ngfactory",
     ],
     entry_point = ":main.prod.ts",
     deps = [
